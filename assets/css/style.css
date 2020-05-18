@@ -54,6 +54,14 @@ body {
 }
 
 @media (max-width: 991px) {
+    .content-wrap{
+        height: 100vh;
+    }
+    .video-wrap{
+        top: 50%;
+        position: relative;
+        transform: translateY(-50%)
+    }
     .video-wrap video {
         max-height: 650px;
     }
