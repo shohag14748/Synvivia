@@ -54,14 +54,20 @@ body {
 }
 
 @media (max-width: 991px) {
+    .video {
+        padding-bottom: 0vw;
+    }
     .content-wrap{
         height: 100vh;
         overflow: hidden;
     }
+    .content {
+        top: 45%;
+    }
     .video-wrap{
-        top: 50%;
+        top: 45%;
         position: relative;
-        transform: translateY(-50%)
+        transform: translateY(-50%);
     }
     .video-wrap video {
         max-height: 650px;
@@ -69,6 +75,13 @@ body {
 
     .content img {
         width: 550px;
+    }
+    .email {
+        margin-top: 80px;
+        position: absolute;
+        width: 100%;
+        top: 75%;
+        left: 0;
     }
 }
 
