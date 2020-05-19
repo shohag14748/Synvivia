@@ -62,10 +62,10 @@ body {
         overflow: hidden;
     }
     .content {
-        top: 45%;
+        top: 40%;
     }
     .video-wrap{
-        top: 45%;
+        top: 40%;
         position: relative;
         transform: translateY(-50%);
     }
@@ -80,7 +80,7 @@ body {
         margin-top: 80px;
         position: absolute;
         width: 100%;
-        top: 75%;
+        top: 70%;
         left: 0;
     }
 }
