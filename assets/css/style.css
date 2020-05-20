@@ -56,16 +56,17 @@ body {
 @media (max-width: 991px) {
     .video {
         padding-bottom: 0vw;
+        height: 95vh;
     }
     .content-wrap{
-        height: 100vh;
+        height: 95vh;
         overflow: hidden;
     }
     .content {
-        top: 40%;
+        top: 42%;
     }
     .video-wrap{
-        top: 40%;
+        top: 42%;
         position: relative;
         transform: translateY(-50%);
     }
@@ -83,6 +84,9 @@ body {
         top: 70%;
         left: 0;
     }
+    .email a{
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -95,7 +99,7 @@ body {
     }
 
     .email a {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
@@ -110,6 +114,8 @@ body {
 
     .email {
         margin-top: 12.5vw;
-
+    }
+    .email a {
+        font-size: 14px;
     }
 }
