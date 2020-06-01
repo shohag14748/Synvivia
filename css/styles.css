@@ -671,7 +671,8 @@ section:after, section:before {
 	background: #f4f4f4;
 }
 .grey_white_bg {
-	background: #63cbe6;
+/*	background: #63cbe6;*/
+	background: #00CCE8;
 	position: relative;
 }
 /*.grey_white_bg:before{
@@ -2648,9 +2649,9 @@ footer {
 
 @media only screen and (max-width: 650px){
 .hero-section {
-    min-height: 120vw !important;
-    background-position: bottom -10vw right -55vw !important;
-    background-size: auto 100%;
+    min-height: 110vw !important;
+    background-position: bottom -4vw right -51vw !important;
+    background-size: auto 95% !important;
 }
     .hero-section .center-holder {
     width: 47vw;
