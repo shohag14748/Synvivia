@@ -2644,3 +2644,9 @@ footer {
         height: 830px !important;
     }
 }
+
+@media only screen and (max-device-width: 550px)
+.hero-section {
+    min-height: 120vw;
+}
+}
