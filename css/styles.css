@@ -2645,8 +2645,15 @@ footer {
     }
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 650px){
 .hero-section {
     min-height: 120vw !important;
+    background-position: center right -60vw !important;
+    background-size: auto 100%;
 }
+    .hero-section .center-holder {
+    width: 47vw;
+        margin-top: 2vw;
+}
+
 }
