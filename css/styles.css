@@ -2329,7 +2329,7 @@ footer {
 .hero-section {
 	width: 100%;
 	position: relative;
-	background-size: cover;
+	background-size: cover !important;
 	background-repeat: no-repeat;
 	padding: 0px;
 	min-height: 100%;
@@ -2348,6 +2348,7 @@ footer {
 	position:relative;
 	overflow:hidden;	
 	z-index:999;
+    background: #221859;
 }
 
 .hero-section .leftshape {
@@ -2648,7 +2649,7 @@ footer {
 @media only screen and (max-width: 650px){
 .hero-section {
     min-height: 120vw !important;
-    background-position: center right -60vw !important;
+    background-position: bottom -10vw right -55vw !important;
     background-size: auto 100%;
 }
     .hero-section .center-holder {
