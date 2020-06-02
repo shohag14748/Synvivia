@@ -1281,6 +1281,20 @@
 
 
 
+
 .navigation-portrait .nav-menus-wrapper, .nav-dropdown > li > a:hover, footer h4:before {
-    background: #fd1c7d;
+/*    background: #fd1c7d;*/
+    background-image: url(../images/menu_border2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100% auto;
+    width: 250px;
+    max-width: 70vw;
+}
+.nav-menus-wrapper-open ul li{
+    width: 50vw !important;
+    max-width: 200px !important;
+}
+.nav-menus-wrapper-close-button{
+    margin-right: 50px
 }

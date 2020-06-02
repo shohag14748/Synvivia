@@ -1787,6 +1787,8 @@ footer {
 
  .event_date .event_date_block {
  width:80% !important;
+     display: block;
+     margin: auto !important;
 }
  .event_date .event_date_block h1 {
  margin: 0 50px !important;
@@ -2176,11 +2178,15 @@ footer {
 }
 .event_date {
 	text-align:center;
-	position:relative;
+/*	position:relative;*/
 	background: #192e73;
 	margin-bottom: 60px;
 }
-.event_date .event_date_block {
+.event_date img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 700px;
 }
 .event_date .event_date_block h1 {
 	color:#fff;
@@ -2429,7 +2435,7 @@ footer {
 		padding:0 !important;
 	}
 	.hero-section{
-		min-height:600px ;  
+		min-height:700px ;  
 	}
 	
 	.hero-section .center-holder {
@@ -2647,11 +2653,20 @@ footer {
     }
 }
 
+@media only screen and (max-width: 768px){
+    .hero-section {
+/*    background-position: bottom -4vw right -51vw !important;*/
+    background-size: auto 95vw !important;
+        background-position: bottom center !important;
+    min-height: 110vw !important;
+        padding-top: calc( 100px + 5vw);
+}
+}
 @media only screen and (max-width: 650px){
 .hero-section {
-    min-height: 110vw !important;
-    background-position: bottom -4vw right -51vw !important;
-    background-size: auto 95% !important;
+    min-height: 125vw !important;
+/*    background-position: bottom -4vw right -51vw !important;*/
+/*    background-size: auto 95% !important;*/
 }
     .hero-section .center-holder {
     width: 47vw;
